@@ -10,7 +10,7 @@ const client = new ApolloClient({
   name: "web",
   version: "1.0",
 });
-
+// 
 ReactDOM.render(
   <ApolloProvider client={client}>
     <GlobalStyles />
